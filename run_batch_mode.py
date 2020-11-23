@@ -497,7 +497,7 @@ for index_rho in range(24):
       absolute_error[index_rho,point,6] = 0
 
 
-np.savez('ond_array_plot_4.npz', threshold=threshold, total_accuracy=total_accuracy, pre_accuracy=pre_accuracy,
+np.savez('batch_array.npz', threshold=threshold, total_accuracy=total_accuracy, pre_accuracy=pre_accuracy,
          post_accuracy=post_accuracy, failure=failure, early=early, on_time=on_time, late=late,
          absolute_error= absolute_error)
 
