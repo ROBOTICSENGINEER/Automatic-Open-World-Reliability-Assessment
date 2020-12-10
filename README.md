@@ -12,7 +12,7 @@ Image classification in the open-world must handle out-of-distribution (OOD) ima
 
 # How to run
 
-### A) Training and savinf feature
+### A) Training and saving feature
 1. Train EfficientNet-B3 using `train_efficient_b3.py`
 2. Extract feautur from EfficientNet-B3 using `save_b3_feature.py`
 3. Train EVM using `train_evm.py`
